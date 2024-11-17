@@ -2,7 +2,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';  // Import Bootstrap for styling
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  // React Router for navigation
 import NavigationBar from './components/NavigationBar';  // Navigation bar component
-import Header from './components/header';  // Header component
+import Header from './components/header';  // Header component (currently not used in this version)
 import Footer from './components/footer';  // Footer component
 import Content from './components/content';  // Main content component
 import Read from './components/read';  // Component for reading/displaying movies
@@ -20,4 +20,8 @@ function App() {
       </Routes>
 
       <Footer />  {/* Render the footer */}
-    <
+    </Router>
+  );
+}
+
+export default App;  // Export the App component for use in other parts of the application
